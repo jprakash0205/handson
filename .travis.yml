@@ -11,5 +11,5 @@ deploy:
    username: jprakash.ora@gmail.com
    password: prakash
    api: https://api.run.pivotal.io
-   organization: success.iio
+   organization: success.io
    space: development
