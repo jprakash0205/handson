@@ -9,6 +9,8 @@ OPENID_PROVIDERS = [
     {'name': 'Flickr', 'url': 'http://www.flickr.com/<username>'},
     {'name': 'MyOpenID', 'url': 'https://www.myopenid.com'}]
 
+#app port
+PORT = 5001
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
