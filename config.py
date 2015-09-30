@@ -10,7 +10,7 @@ OPENID_PROVIDERS = [
     {'name': 'MyOpenID', 'url': 'https://www.myopenid.com'}]
 
 #app port
-PORT = 5001
+PORT = 5002
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
