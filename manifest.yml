@@ -1,5 +1,4 @@
 applications:
 - name: flask-microblog
 memory: 512M
-command: python run.py
-buildpack: https://github.com/ephoning/heroku-buildpack-python
+
