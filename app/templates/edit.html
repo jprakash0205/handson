@@ -9,6 +9,10 @@
 		<tr>
 			<td> Your nickname</td>
 			<td>{{ form.nickname(size=24) }}
+				{% for error in form.errors.nickname %}
+			<span style="color:#FF0000;">{{ error }}</span>
+			{% endfor %}<br />
+			</td>
 		</tr>
 		<tr>
 			<td> About Yourself:</td>
